@@ -1,0 +1,4 @@
+- nomer 1,2,5 menggunakan javascript
+- nomer 3 dan 4 menggunakan html dan javascript
+- nomer 6a hanya sql saja
+- nomer 6b dan 6c menggunakan PHP dengan framework codeigniter, sql db-nya ada di folder db.
