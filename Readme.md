@@ -2,3 +2,28 @@
 - nomer 3 dan 4 menggunakan html dan javascript
 - nomer 6a hanya sql saja
 - nomer 6b dan 6c menggunakan PHP dengan framework codeigniter, sql db-nya ada di folder db.
+- screenshot nomer 6
+- list Name
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-47-23.png)
+- edit Name
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-47-36.png)
+- add Name
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-47-40.png)
+- delete Name
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-48-42.png)
+- list Work
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-47-26.png)
+- add Work
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-47-46.png)
+- edit Work
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-47-51.png)
+- delete Work
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-49-01.png)
+- list Salary
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-47-58.png)
+- add Salary
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-48-01.png)
+- edit Salary
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-48-05.png)
+- delete Salary
+- ![alt text](https://raw.githubusercontent.com/ybasori/ujian-ark/master/6/screenshots/Screenshot%20from%202019-09-14%2017-49-45.png)
