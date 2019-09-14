@@ -1,0 +1,1 @@
+SELECT n.name as name, w.name as work, s.salary as salary FROM name n JOIN work w ON n.id_work=w.id JOIN salary s ON n.id_salary=s.id

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="parameter_1">
+    <input type="text" id="parameter_2">
+    <button type="button" id="submit">submit</button>
+    <div id="result"></div>
+    <script>
+        document.getElementById("submit").addEventListener("click", function(){
+            var parameter_1 = document.getElementById("parameter_1");
+            var parameter_2 = document.getElementById("parameter_2");
+            if(parameter_1.value!="" && parameter_2.value!="" && parameter_1.value.length > parameter_2.value.length){
+                var p1 = parameter_1.value;
+                var p2 = parameter_2.value;
+                var record = 0;
+                var count_vocal = 0;
+                var vocal = ['a','i','u','e','o'];
+                for(var i=0;i<p2.length;i++){
+                    for(j=0;j<vocal.length;j++){
+                        if(vocal[j]==p2.substring(i,(i+1))){
+                            count_vocal++;
+                        }
+                    }
+                }
+                for(var i=0;i<p1.length; i++){
+                    if(p1.substring(i,(p2.length+i))==p2){
+                        record++;
+                    }
+                    // console.log(p1,p1.substring(i,(p2.length+i)));
+                }
+                document.getElementById("result").innerHTML = "ditemukan "+(record*count_vocal)+" kali";
+            }
+        })
+    </script>
+</body>
+</html>

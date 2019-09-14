@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="result"></div>
+    <script>
+        function cetak_gambar(value){
+            if(value%2!=0){
+                var str = "";
+                for(var i=1; i<=value; i++){
+                    for(var j=1; j<=value; j++){
+                        if(j==1 || j==value){
+                            str = str + "*&nbsp; ";
+                        }
+                        else if(i==1 || i==value){
+                            str = str + "= ";
+                        }
+                        else if(i==Math.ceil(value/2)){
+                                str = str + "*&nbsp; ";
+                        }
+                        else{
+                                str = str + "= ";
+                        }
+                    }
+                    str = str + "<br>";
+                }
+                document.getElementById("result").innerHTML=str;
+            }
+            else{
+                return ;
+            }
+        }
+
+        cetak_gambar(7);
+    </script>
+</body>
+</html>
